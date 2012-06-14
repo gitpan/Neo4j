@@ -1,0 +1,46 @@
+{
+   "abstract" : "A client for the Neo4j graph database",
+   "author" : [
+      "Nuba Princigalli <nuba@stastu.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Neo4j",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::Accessor" : "0",
+            "JSON" : "0",
+            "Moose" : "0",
+            "REST::Client" : "0",
+            "Test::More" : "0",
+            "Try::Tiny" : "0"
+         }
+      }
+   },
+   "release_status" : "testing",
+   "version" : "0.01_01"
+}

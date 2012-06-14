@@ -1,0 +1,19 @@
+Changes
+ignore.txt
+lib/Neo4j.pm
+lib/Neo4j/Index.pm
+lib/Neo4j/Node.pm
+lib/Neo4j/Relationship.pm
+lib/Neo4j/REST/Client.pm
+lib/Neo4j/Role/Data.pm
+lib/Neo4j/Role/REST.pm
+lib/Neo4j/Types.pm
+Makefile.PL
+MANIFEST			This list of files
+README
+t/00-load.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
